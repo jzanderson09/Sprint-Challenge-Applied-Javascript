@@ -128,6 +128,8 @@ bcCard2Author.appendChild(bcCard2ImgContainer);
 
 let bcCard2Img = document.createElement('img');
 bcCard2Img.src = 'https://www.blockchain-council.org/wp-content/uploads/2018/09/Logo-500x96.png';
+bcCard2Img.style.width = '150px';
+bcCard2Img.style.height = '40px';
 
 bcCard2ImgContainer.appendChild(bcCard2Img);
 
